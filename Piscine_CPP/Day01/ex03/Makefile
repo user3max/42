@@ -1,6 +1,6 @@
 NAME = zombie
 FLAGS = -Wall -Werror -Wextra
-SRC = main.cpp Zombie.cpp ZombieEvent.cpp
+SRC = main.cpp Zombie.cpp ZombieHorde.cpp
 CC = clang++
 OSRC =	$(SRC:.cpp=.o)
 

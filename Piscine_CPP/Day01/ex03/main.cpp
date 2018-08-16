@@ -1,8 +1,14 @@
 //main.cpp by Carp-Bezverhnii Maxim
-#include "ZombieEvent.hpp"
+
+#include "ZombieHorde.hpp"
 
 int main()
-{ 
+{
+	int n;
 
-	return (0);
+	std::cout << "Enter how much zombie you want to create?" << std::endl;
+	std::cin >> n;
+	ZombieHorde	zmb(n);
+	
+	return 0;
 }

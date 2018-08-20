@@ -1,4 +1,4 @@
-//ex04 by Carp-Bezverhnii Maxim
+//ex04.cpp by Carp-Bezverhnii Maxim
 #include <iostream>
 
 int main()

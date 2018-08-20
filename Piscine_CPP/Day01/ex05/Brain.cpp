@@ -1,6 +1,6 @@
 //Brain.cpp by Carp-Bezverhnii Maxim
 #include "Brain.hpp"
-#include <sstream>
+
 Brain::Brain() {}
 
 Brain::~Brain() {}

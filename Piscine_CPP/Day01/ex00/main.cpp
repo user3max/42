@@ -1,3 +1,4 @@
+//main.cpp by Carp-Bezverhnii Maxim
 #include "Pony.hpp"
 
 void ponyOnTheHeap(void)

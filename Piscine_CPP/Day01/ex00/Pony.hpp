@@ -1,3 +1,4 @@
+//Pony.hpp by Carp-Bezverhnii Maxim
 #ifndef PONY_HPP
 # define PONY_HPP
 

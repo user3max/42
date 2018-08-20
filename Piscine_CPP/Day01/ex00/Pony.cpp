@@ -1,3 +1,4 @@
+//Pony.cpp by Carp-Bezverhnii Maxim
 #include "Pony.hpp"
 
 Pony::Pony(void)

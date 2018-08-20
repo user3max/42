@@ -1,4 +1,4 @@
-//main.cpp by Carp-Bezverhnii Maxim
+//Contact.class.hpp by Carp-Bezverhnii Maxim
 #ifndef CONTACTS_CLASS_HPP
 # define CONTACTS_CLASS_HPP
 

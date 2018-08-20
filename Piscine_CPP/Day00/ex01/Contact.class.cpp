@@ -1,4 +1,4 @@
-//main.cpp by Carp-Bezverhnii Maxim
+//Contact.class.cpp by Carp-Bezverhnii Maxim
 #include "Contact.class.hpp"
 
 Contact::Contact(void)

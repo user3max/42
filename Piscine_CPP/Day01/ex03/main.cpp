@@ -1,5 +1,4 @@
 //main.cpp by Carp-Bezverhnii Maxim
-
 #include "ZombieHorde.hpp"
 
 int main()

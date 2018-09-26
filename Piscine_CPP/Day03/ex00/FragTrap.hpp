@@ -20,8 +20,6 @@ class FragTrap
 
 public:
 	FragTrap(std::string name);
-	FragTrap(FragTrap const &);
-	FragTrap& operator=(FragTrap const &);
 	~FragTrap();
 
 	void	rangedAttack(std::string const & target);

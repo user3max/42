@@ -6,18 +6,19 @@
 #include "FragTrap.hpp"
 #include "ScavTrap.hpp"
 
+#include <memory>
+
 #include <iostream>
 
 class NinjaTrap : public ClapTrap
 {
-
 public:
 	NinjaTrap(std::string name);
 	~NinjaTrap();
 
-	void	ninjaShoebox(FragTrap const & target);
-	void	ninjaShoebox(ScavTrap const & target);
-	void	ninjaShoebox(NinjaTrap const & target);
+	void	ninjaShoebox(FragTrap & target);
+	void	ninjaShoebox(ScavTrap & target);
+	void	ninjaShoebox(NinjaTrap & target);
 
 };
 

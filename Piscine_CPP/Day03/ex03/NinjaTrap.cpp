@@ -20,17 +20,18 @@ NinjaTrap::~NinjaTrap() {
 	std::cout << "NinjaTrap Robot with name '" << _name << "'' was destroyed!" << std::endl;
 }
 
-void	NinjaTrap::ninjaShoebox(FragTrap const & target)
+void	NinjaTrap::ninjaShoebox(FragTrap & target)
 {
-	std::cout << _name << " picked up the robot of type FragTrap and took him to the garbage" << std::endl;
+	std::cout <<  this->_name << " picked up the robot of type FragTrap with name " << target.getName() << " and took him to the garbage" << std::endl;
 }
 
-void	NinjaTrap::ninjaShoebox(ScavTrap const & target)
+
+void	NinjaTrap::ninjaShoebox(ScavTrap & target)
 {
-	std::cout << _name << " picked up the robot of type ScavTrap and took him to the garbage" << std::endl;
+	std::cout <<  this->_name << " picked up the robot of type ScavTrap with name " << target.getName() << " and took him to the garbage" << std::endl;
 }
 
-void	NinjaTrap::ninjaShoebox(NinjaTrap const & target)
+void	NinjaTrap::ninjaShoebox(NinjaTrap & target)
 {
-	std::cout << _name <<  ": I will try to jump into one leg master!" << std::endl;
+	std::cout <<  target.getName() << ": I will try to jump into one leg master!" <<  std::endl;
 }

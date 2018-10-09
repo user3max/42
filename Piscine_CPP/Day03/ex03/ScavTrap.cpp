@@ -17,7 +17,7 @@ ScavTrap::ScavTrap(std::string name) {
 }
 
 ScavTrap::~ScavTrap() {
-	std::cout << "ScavTrap Robot with name '" << _name << "'' was destroyed!" << std::endl;
+	std::cout << "ScavTrap Robot with name '" << _name << "' was destroyed!" << std::endl;
 }
 
 void	ScavTrap::challengeNewcomer(std::string const & target) {

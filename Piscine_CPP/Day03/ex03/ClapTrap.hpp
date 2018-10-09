@@ -18,10 +18,11 @@ protected:
 	unsigned int 			_rangedAttackDmg;
 	unsigned int 			_armDmgRed;
 	std::string 			_name;
-
 public:
 	ClapTrap();
 	~ClapTrap();
+	
+	std::string getName();
 
 	void	rangedAttack(std::string const & target);
 	void	meleeAttack(std::string const & target);

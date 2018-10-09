@@ -16,7 +16,7 @@ FragTrap::FragTrap(std::string name) {
 }
 
 FragTrap::~FragTrap() {
-	std::cout << "FragTrap Robot with name '" << _name << "'' was destroyed!" << std::endl;
+	std::cout << "FragTrap Robot with name '" << _name << "' was destroyed!" << std::endl;
 }
 
 void	FragTrap::vaulthunter_dot_exe(std::string const & target) {

@@ -70,3 +70,8 @@ void	ClapTrap::beRepaired(unsigned int amount) {
 	}
 	std::cout << "| " << _name << " | HP ( " << _HP << " ) | EP ( " << _EP <<" ) |" << std::endl;
 }
+
+std::string ClapTrap::getName(void)
+{
+	return this->_name;
+}

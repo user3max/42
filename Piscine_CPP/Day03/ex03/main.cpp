@@ -213,13 +213,13 @@ int main()
 				std::cin >> target;
 				if (target == "1")
 				{
-					FragTrap f("Alisa");
-					r.ninjaShoebox(f);
+					FragTrap frag("Fragonitos");
+					r.ninjaShoebox(frag);
 				}
 				else if (target == "2")
 				{
-					ScavTrap s("Mike");
-					r.ninjaShoebox(s);
+					ScavTrap scav("Scavonitos");
+					r.ninjaShoebox(scav);
 				}
 				else if (target == "3")
 				{

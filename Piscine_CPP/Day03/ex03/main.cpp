@@ -204,8 +204,8 @@ int main()
 				std::cout << name << "will try to do something funny" << std::endl;
 				std::cout << "... but first select target" << std::endl;
 
-				std::cout << "1.Alisa(FragTrap)" << std::endl;
-				std::cout << "2.Mike(ScavTrap)" << std::endl;
+				std::cout << "1.Fragonitos(FragTrap)" << std::endl;
+				std::cout << "2.Scavonitos(ScavTrap)" << std::endl;
 				std::cout << "3.Yourself" << std::endl;
 
 				std::string target;
